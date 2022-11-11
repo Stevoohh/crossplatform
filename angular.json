@@ -1,6 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "desktop": "apps/desktop",
+    "homepage": "apps/homepage",
+    "homepage-e2e": "apps/homepage-e2e",
+    "mobile": "apps/mobile",
+    "mobile-e2e": "apps/mobile-e2e",
+    "ui-elements": "libs/ui/elements",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }

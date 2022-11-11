@@ -1,17 +1,17 @@
 {
-  "root": "apps/web-e2e",
-  "sourceRoot": "apps/web-e2e/src",
+  "root": "apps/mobile-e2e",
+  "sourceRoot": "apps/mobile-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/web-e2e/cypress.json",
-        "devServerTarget": "web:serve:development"
+        "cypressConfig": "apps/mobile-e2e/cypress.json",
+        "devServerTarget": "mobile:serve:development"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "web:serve:production"
+          "devServerTarget": "mobile:serve:production"
         }
       }
     },
@@ -22,13 +22,13 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/web-e2e/**/*.{js,ts}"
+          "apps/mobile-e2e/**/*.{js,ts}"
         ]
       }
     }
   },
   "tags": [],
   "implicitDependencies": [
-    "web"
+    "mobile"
   ]
 }
