@@ -7,7 +7,8 @@
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2015 browser module main",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "bieralarm": "nx build bieralarm && nx run bieralarm:sync:android && nx run bieralarm:open:android"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,8 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
-    "@capacitor/core": "^3.2.5",
+    "@capacitor/core": "^4.0.0",
+    "@capacitor/push-notifications": "^4.1.2",
     "@ionic/angular": "^5.8.3",
     "@nrwl/angular": "13.10.5",
     "@nxtend/capacitor": "^13.0.0",
@@ -35,9 +37,9 @@
     "@angular/cli": "~13.3.0",
     "@angular/compiler-cli": "~13.3.0",
     "@angular/language-service": "~13.3.0",
-    "@capacitor/android": "^3.2.5",
-    "@capacitor/cli": "^3.2.5",
-    "@capacitor/ios": "^3.2.5",
+    "@capacitor/android": "^4.0.0",
+    "@capacitor/cli": "^4.0.0",
+    "@capacitor/ios": "^4.0.0",
     "@nrwl/angular": "^13.0.0",
     "@nrwl/cli": "13.10.5",
     "@nrwl/cypress": "13.10.5",

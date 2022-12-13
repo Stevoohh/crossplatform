@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899506275363",
+    "project_id": "bieralarm-5e2be",
+    "storage_bucket": "bieralarm-5e2be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899506275363:android:2b6828f919af958f381d96",
+        "android_client_info": {
+          "package_name": "de.finfire.bieralarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899506275363-eohnduaa6qpl60ru0tlbjv4dfr6ern7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNXiCc80rSrnsWwtxcwyNop8F1Q-DooQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899506275363-eohnduaa6qpl60ru0tlbjv4dfr6ern7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

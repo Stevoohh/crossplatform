@@ -1,0 +1,6 @@
+{
+	"appId": "de.finfire.bieralarm",
+	"appName": "bieralarm",
+	"webDir": "../../dist/apps/bieralarm",
+	"bundledWebRuntime": false
+}

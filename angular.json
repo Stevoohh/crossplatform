@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "bieralarm": "apps/bieralarm",
+    "bieralarm-e2e": "apps/bieralarm-e2e",
     "desktop": "apps/desktop",
     "homepage": "apps/homepage",
     "homepage-e2e": "apps/homepage-e2e",

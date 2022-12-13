@@ -1,0 +1,28 @@
+{
+  "root": "apps/bieralarm-e2e",
+  "sourceRoot": "apps/bieralarm-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/bieralarm-e2e/cypress.json",
+        "devServerTarget": "bieralarm:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "bieralarm:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/bieralarm-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["bieralarm"]
+}

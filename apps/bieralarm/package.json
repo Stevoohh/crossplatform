@@ -1,0 +1,9 @@
+{
+  "name": "bieralarm",
+  "devDependencies": {
+    "@capacitor/cli": "^4.0.0"
+  },
+  "dependencies": {
+    "@capacitor/push-notifications": "^4.1.2"
+  }
+}
